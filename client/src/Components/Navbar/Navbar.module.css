@@ -1,0 +1,36 @@
+.navContainer {
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px 0px;
+  height: 3.5rem;
+  width: 100%;
+  display: flex;
+  gap: 3.5rem;
+  font-weight: bolder;
+  text-decoration: none !important;
+}
+.logo_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 5rem;
+}
+
+.logo_container a {
+  text-decoration: none;
+  color: inherit;
+  outline: none;
+}
+.link_container {
+  gap: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.link_container a {
+  text-decoration: none;
+  color: inherit;
+  outline: none;
+}
+.link {
+  border-bottom: 2px solid rgb(79, 70, 229);
+}

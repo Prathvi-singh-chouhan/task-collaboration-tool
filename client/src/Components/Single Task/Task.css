@@ -1,0 +1,54 @@
+.task {
+  background-color: #f2f2f2;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 20rem;
+}
+
+.task-title {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.task-due {
+  font-size: 0.9rem;
+  color: #888;
+  margin-bottom: 1rem;
+}
+
+.task-complete,
+.task-delete {
+  padding: 0.5rem 0.5rem;
+  border: none;
+  border-radius: 4px;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.task-update {
+  border: none;
+  background-color: #f44336;
+  margin-top: 0.8rem;
+  padding: 0.5rem 0.5rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  color: #fff;
+  border-radius: 4px;
+}
+.task-complete {
+  background-color: #4caf50;
+}
+
+.task-delete {
+  background-color: #f44336;
+  margin-left: 0.5rem;
+}
+
+.task-complete:hover,
+.task-update:hover,
+.task-delete:hover {
+  background-color: #3e8e41;
+}
